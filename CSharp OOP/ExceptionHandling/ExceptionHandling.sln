@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EGNValidator", "validatorID\EGNValidator.csproj", "{8F13A152-9E4C-45C3-B282-DC4036DC9D79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F13A152-9E4C-45C3-B282-DC4036DC9D79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F13A152-9E4C-45C3-B282-DC4036DC9D79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F13A152-9E4C-45C3-B282-DC4036DC9D79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F13A152-9E4C-45C3-B282-DC4036DC9D79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41379421-5608-46CA-A356-EDE1CDA627C5}
+	EndGlobalSection
+EndGlobal
