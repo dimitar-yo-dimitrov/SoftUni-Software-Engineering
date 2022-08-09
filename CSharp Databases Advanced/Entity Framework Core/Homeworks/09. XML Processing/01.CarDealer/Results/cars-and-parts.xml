@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-16"?>
+<cars>
+  <car make="Opel" model="Astra" travelled-distance="516628215">
+    <parts>
+      <part name="Clutch assembly" price="120.99" />
+      <part name="Water pump gasket" price="120.29" />
+      <part name="Front Right Side Inner door handle" price="100.99" />
+    </parts>
+  </car>
+  <car make="BMW" model="F20" travelled-distance="487897422">
+    <parts>
+      <part name="Unexposed bumper" price="1003.34" />
+      <part name="Door control module" price="421.99" />
+      <part name="Radiator bolt" price="160.99" />
+      <part name="Steering arm" price="104.99" />
+      <part name="Water tank" price="100.99" />
+      <part name="Fascia" price="100.34" />
+      <part name="Oil pipe" price="100.29" />
+      <part name="Piston" price="94.99" />
+      <part name="Water neck o-ring" price="43.99" />
+      <part name="Heat shield" price="10.99" />
+      <part name="Distributor cap" price="9.99" />
+    </parts>
+  </car>
+  <car make="BMW" model="E67" travelled-distance="476830509">
+    <parts>
+      <part name="Radiator bolt" price="160.99" />
+      <part name="Fuel cooler" price="140.99" />
+      <part name="Master cylinder" price="130.99" />
+      <part name="Cooling fan" price="120.99" />
+      <part name="Clutch assembly" price="120.99" />
+      <part name="Transmission pan" price="106.99" />
+      <part name="Water tank" price="100.99" />
+      <part name="Rocker" price="100.99" />
+      <part name="Radiator " price="100.99" />
+      <part name="Crank case" price="2.93" />
+    </parts>
+  </car>
+  <car make="BMW" model="F25" travelled-distance="476132712">
+    <parts>
+      <part name="Oil pan" price="140.99" />
+      <part name="Roof rack" price="100.99" />
+      <part name="Engine" price="100.99" />
+      <part name="Oil pipe" price="100.29" />
+      <part name="Engine valve" price="49.99" />
+      <part name="Drive belt" price="3.99" />
+    </parts>
+  </car>
+  <car make="BMW" model="M Roadster E85" travelled-distance="475685374">
+    <parts>
+      <part name="Valve housing" price="400.99" />
+      <part name="Steering box" price="103.99" />
+      <part name="Roof rack" price="100.99" />
+      <part name="Front clip" price="100.00" />
+      <part name="Front Left Side Inner door handle" price="77.99" />
+      <part name="Gudgeon pin" price="44.99" />
+      <part name="Water pump" price="44.93" />
+      <part name="Engine cradle" price="39.99" />
+      <part name="Speed reducer" price="14.99" />
+      <part name="Rocker cover" price="10.99" />
+      <part name="Turbocharger" price="0.40" />
+    </parts>
+  </car>
+</cars>
