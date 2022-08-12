@@ -22,27 +22,27 @@
 <tbody>
 <tr>
 <td><a href="https://softuni.bg/trainings/3038/programming-basics-with-c-sharp-july-2020" rel="nofollow"> Programming Basics with C# </a></td>
-<td><a href="https://softuni.bg/certificates/details/88319/f060fd8b" rel="nofollow"> Link</a></td>
+<td><a href="https://softuni.bg/certificates/details/88319/f060fd8b" rel="nofollow"> Link </a></td>
 </tr>
 <tr>
 <td><a href="https://softuni.bg/trainings/3213/csharp-fundamentals-january-2021" rel="nofollow"> Technology Fundamentals with C# </a></td>
-<td><a href="https://softuni.bg/users/profile/trainings/dimitrov.dimitar" rel="nofollow"> Link</a></td>
+<td><a href="https://softuni.bg/users/profile/trainings/dimitrov.dimitar" rel="nofollow"> Link </a></td>
 </tr>
 <tr>
 <td><a href="https://softuni.bg/trainings/3483/csharp-advanced-september-2021" rel="nofollow"> C# Advanced </a></td>
-<td><a href="https://softuni.bg/certificates/details/121963/8bffd63d" rel="nofollow"> Link</a></td>
+<td><a href="https://softuni.bg/certificates/details/121963/8bffd63d" rel="nofollow"> Link </a></td>
 </tr>
 <tr>
 <td><a href="https://softuni.bg/trainings/3484/csharp-oop-october-2021" rel="nofollow"> C# OOP </a></td>
-<td><a href="https://softuni.bg/certificates/details/120459/8e5ef7d6" rel="nofollow"> Link</a></td>
+<td><a href="https://softuni.bg/certificates/details/120459/8e5ef7d6" rel="nofollow"> Link </a></td>
 </tr>
 <tr>
-<td><a href="https://softuni.bg/trainings/3714/ms-sql-may-2022#lesson-40081" rel="nofollow"> C# OOP </a></td>
-<td><a href="https://softuni.bg/certificates/details/134963/6144aec5" rel="nofollow"> Link</a></td>
+<td><a href="https://softuni.bg/trainings/3714/ms-sql-may-2022#lesson-40081" rel="nofollow"> Databases Basics - MS SQL Server </a></td>
+<td><a href="https://softuni.bg/certificates/details/134963/6144aec5" rel="nofollow"> Link </a></td>
 </tr>
 <tr>
-<td><a href="https://softuni.bg/trainings/3709/entity-framework-core-june-2022#lesson-39998" rel="nofollow"> C# OOP </a></td>
-<td><a href="https://softuni.bg/users/profile/certificates?username=dimitrov.dimitar" rel="nofollow"> Link</a></td>
+<td><a href="https://softuni.bg/trainings/3709/entity-framework-core-june-2022#lesson-39998" rel="nofollow"> Entity Framework Core </a></td>
+<td><a href="https://softuni.bg/users/profile/certificates?username=dimitrov.dimitar" rel="nofollow"> Link </a></td>
 </tr>
 </tbody>
 </table>
