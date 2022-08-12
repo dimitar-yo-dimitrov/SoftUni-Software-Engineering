@@ -52,7 +52,7 @@
 <thead>
 <tr>
 <th><strong>Course</strong></th>
-<th><strong>Link</strong></th>
+<th><strong>Certificates</strong></th>
 </tr>
 </thead>
 <tbody>
