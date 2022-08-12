@@ -36,6 +36,14 @@
 <td><a href="https://softuni.bg/trainings/3484/csharp-oop-october-2021" rel="nofollow"> C# OOP </a></td>
 <td><a href="https://softuni.bg/certificates/details/120459/8e5ef7d6" rel="nofollow"> Link</a></td>
 </tr>
+<tr>
+<td><a href="https://softuni.bg/trainings/3714/ms-sql-may-2022#lesson-40081" rel="nofollow"> C# OOP </a></td>
+<td><a href="https://softuni.bg/certificates/details/134963/6144aec5" rel="nofollow"> Link</a></td>
+</tr>
+<tr>
+<td><a href="https://softuni.bg/trainings/3709/entity-framework-core-june-2022#lesson-39998" rel="nofollow"> C# OOP </a></td>
+<td><a href="https://softuni.bg/users/profile/certificates?username=dimitrov.dimitar" rel="nofollow"> Link</a></td>
+</tr>
 </tbody>
 </table>
 </td>
