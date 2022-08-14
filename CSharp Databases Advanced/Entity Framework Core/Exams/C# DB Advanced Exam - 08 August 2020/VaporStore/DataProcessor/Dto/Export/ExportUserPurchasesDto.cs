@@ -7,12 +7,10 @@ namespace VaporStore.DataProcessor.Dto.Export
     public class ExportUserPurchasesDto
     {
         [Required]
-        [RegularExpression(@"^(\d{4})\s(\d{4})\s(\d{4})\s(\d{4})$")]
         [XmlElement("Card")]
         public string Card { get; set; }
 
         [Required]
-        [RegularExpression(@"^(\d{3})$")]
         [XmlElement("Cvc")]
         public string Cvc { get; set; }
 
