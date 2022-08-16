@@ -42,7 +42,7 @@
 </tr>
 <tr>
 <td><a href="https://softuni.bg/trainings/3709/entity-framework-core-june-2022#lesson-39998" rel="nofollow"> Entity Framework Core </a></td>
-<td><a href="https://softuni.bg/users/profile/certificates?username=dimitrov.dimitar" rel="nofollow"> Link </a></td>
+<td><a href="https://softuni.bg/certificates/details/141255/3ccf78a6" rel="nofollow"> Link </a></td>
 </tr>
 </tbody>
 </table>
