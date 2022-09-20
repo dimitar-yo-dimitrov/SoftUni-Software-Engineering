@@ -27,10 +27,11 @@
             StringBuilder sb = new StringBuilder();
 
             string rootName = "Despatchers";
+
             ImportDespatchersDto[] despatcherDtos =
                 ConvertXml.DeserializeXml<ImportDespatchersDto[]>(xmlString, rootName);
 
-            var despatchers = new List<Despatcher>();
+            var despatchers = new HashSet<Despatcher>();
 
             foreach (var despatcherDto in despatcherDtos)
             {
@@ -39,6 +40,12 @@
                     sb.AppendLine(ErrorMessage);
                     continue;
                 }
+
+                Despatcher despatcher = new Despatcher
+                {
+                    Name = despatcherDto.Name,
+                    Position = despatcherDto.Position,
+                };
 
                 var trucks = new List<Truck>();
 
@@ -50,7 +57,8 @@
                         continue;
                     }
 
-                    bool validCategoryType = Enum.TryParse<CategoryType>(truckDto.CategoryType.ToString(), out var categoryType);
+                    bool validCategoryType = Enum
+                        .TryParse<CategoryType>(truckDto.CategoryType.ToString(), out var categoryType);
 
                     if (!validCategoryType)
                     {
@@ -58,7 +66,8 @@
                         continue;
                     }
 
-                    bool validMakeType = Enum.TryParse<MakeType>(truckDto.MakeType.ToString(), out var makeType);
+                    bool validMakeType = Enum
+                        .TryParse<MakeType>(truckDto.MakeType.ToString(), out var makeType);
 
                     if (!validMakeType)
                     {
@@ -75,16 +84,13 @@
                         CategoryType = categoryType,
                         MakeType = makeType
                     });
+
                 }
 
-                despatchers.Add(new Despatcher
-                {
-                    Name = despatcherDto.Name,
-                    Position = despatcherDto.Position,
-                    Trucks = trucks
-                });
+                despatcher.Trucks = trucks;
+                despatchers.Add(despatcher);
 
-                sb.AppendLine(String.Format(SuccessfullyImportedDespatcher, despatcherDto.Name, trucks.Count));
+                sb.AppendLine(String.Format(SuccessfullyImportedDespatcher, despatcherDto.Name, despatcher.Trucks.Count));
             }
 
 
@@ -109,6 +115,11 @@
                     continue;
                 }
 
+                if (clientDto.Type == "usual")
+                {
+                    continue;
+                }
+
                 Client client = new Client
                 {
                     Name = clientDto.Name,
@@ -116,9 +127,12 @@
                     Type = clientDto.Type
                 };
 
+                var trucks = new List<ClientTruck>();
+
                 foreach (var truckId in clientDto.Trucks.Distinct())
                 {
-                    Truck truck = context.Trucks.Find(truckId);
+                    Truck truck = context.Trucks
+                        .FirstOrDefault(t => t.Id == truckId);
 
                     if (truck == null)
                     {
@@ -126,18 +140,16 @@
                         continue;
                     }
 
-                    client.ClientsTrucks.Add(new ClientTruck
+                    var clientTruck = new ClientTruck()
                     {
                         Client = client,
                         Truck = truck
-                    });
+                    };
+
+                    trucks.Add(clientTruck);
                 }
 
-                if (client.Type == "usual")
-                {
-                    continue;
-                }
-
+                client.ClientsTrucks = trucks;
                 clients.Add(client);
 
                 sb.AppendLine(String.Format(SuccessfullyImportedClient, client.Name, client.ClientsTrucks.Count));

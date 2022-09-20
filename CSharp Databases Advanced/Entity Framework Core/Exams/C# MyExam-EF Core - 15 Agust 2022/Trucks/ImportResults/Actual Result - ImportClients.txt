@@ -3,15 +3,11 @@ Invalid data!
 Successfully imported client - DHL SERVICES LIMITED with 2 trucks.
 Invalid data!
 Invalid data!
-Invalid data!
-Invalid data!
 Successfully imported client - SCHENKER SP ZOO with 4 trucks.
 Successfully imported client - Buchen UmweltService GmbH with 5 trucks.
 Invalid data!
 Invalid data!
 Successfully imported client - SPETSENERGOTRANS AO with 1 trucks.
-Invalid data!
-Invalid data!
 Successfully imported client - MCBURNEY HOLDINGS LIMITED with 4 trucks.
 Invalid data!
 Successfully imported client - ZMK AO with 5 trucks.
@@ -27,10 +23,7 @@ Invalid data!
 Invalid data!
 Invalid data!
 Invalid data!
-Invalid data!
 Successfully imported client - SKA GmbH with 2 trucks.
-Invalid data!
-Invalid data!
 Invalid data!
 Invalid data!
 Invalid data!
@@ -68,8 +61,6 @@ Invalid data!
 Successfully imported client - Tekro spol. s r.o. with 3 trucks.
 Invalid data!
 Successfully imported client - VYMPEL PLYUS GmbH with 4 trucks.
-Invalid data!
-Invalid data!
 Invalid data!
 Invalid data!
 Successfully imported client - KRIPTON GmbH with 5 trucks.
