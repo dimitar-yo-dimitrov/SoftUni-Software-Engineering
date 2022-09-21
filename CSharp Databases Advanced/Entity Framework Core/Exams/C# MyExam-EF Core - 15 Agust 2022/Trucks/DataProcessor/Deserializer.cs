@@ -127,12 +127,9 @@
                     Type = clientDto.Type
                 };
 
-                var trucks = new List<ClientTruck>();
-
                 foreach (var truckId in clientDto.Trucks.Distinct())
                 {
-                    Truck truck = context.Trucks
-                        .FirstOrDefault(t => t.Id == truckId);
+                    Truck truck = context.Trucks.Find(truckId);
 
                     if (truck == null)
                     {
@@ -140,16 +137,13 @@
                         continue;
                     }
 
-                    var clientTruck = new ClientTruck()
+                    client.ClientsTrucks.Add(new ClientTruck
                     {
                         Client = client,
                         Truck = truck
-                    };
-
-                    trucks.Add(clientTruck);
+                    });
                 }
 
-                client.ClientsTrucks = trucks;
                 clients.Add(client);
 
                 sb.AppendLine(String.Format(SuccessfullyImportedClient, client.Name, client.ClientsTrucks.Count));
