@@ -31,7 +31,7 @@
         private static void ImportEntities(TrucksContext context, string baseDir, string exportDir)
         {
             var despatchers =
-                DataProcessor.Deserializer.ImportDespatcher(context,
+                DataProcessor.Deserializer.ImportDispatcher(context,
                     File.ReadAllText(baseDir + "despatchers.xml"));
 
             PrintAndExportEntityToFile(despatchers, exportDir + "Actual Result - ImportDespatchers.txt");
