@@ -31,7 +31,7 @@ namespace SoftUni.Data
             if (!optionsBuilder.IsConfigured)
             {
                 optionsBuilder
-                    .UseSqlServer("Server=DESKTOP-B9BOKON\\SQLEXPRESS;Database=SoftUni;Integrated Security=True;");
+                    .UseSqlServer("");
             }
         }
 
