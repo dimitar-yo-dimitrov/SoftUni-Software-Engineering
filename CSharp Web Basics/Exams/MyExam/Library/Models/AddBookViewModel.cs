@@ -33,13 +33,14 @@ namespace Library.Models
         public string Description { get; set; } = null!;
 
         [Required]
+        [Url]
         public string ImageUrl { get; set; } = null!;
 
         [Required]
         [Range(typeof(decimal), RatingMinLength, RatingMaxLength, ConvertValueInInvariantCulture = true)]
         public decimal Rating { get; set; }
 
-        public int? CategoryId { get; set; } = null!;
+        public int CategoryId { get; set; }
 
         public IEnumerable<Category> Categories { get; set; }
     }

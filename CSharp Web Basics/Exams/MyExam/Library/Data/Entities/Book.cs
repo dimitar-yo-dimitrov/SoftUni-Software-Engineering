@@ -36,7 +36,7 @@ namespace Library.Data.Entities
 
         [Required]
         [ForeignKey(nameof(CategoryId))]
-        public int? CategoryId { get; set; }
+        public int CategoryId { get; set; }
 
         [Required]
         public virtual Category Category { get; set; } = null!;
