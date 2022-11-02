@@ -114,12 +114,12 @@ namespace Library.Services
                 throw new ArgumentException("Invalid user ID");
             }
 
-            var movie = user.ApplicationUsersBooks
+            var book = user.ApplicationUsersBooks
                 .FirstOrDefault(b => b.BookId == bookId);
 
-            if (movie != null)
+            if (book != null)
             {
-                user.ApplicationUsersBooks.Remove(movie);
+                user.ApplicationUsersBooks.Remove(book);
 
                 await _context.SaveChangesAsync();
             }
