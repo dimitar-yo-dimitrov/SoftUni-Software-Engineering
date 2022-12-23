@@ -37,12 +37,20 @@
 <td><a href="https://softuni.bg/certificates/details/120459/8e5ef7d6" rel="nofollow"> Link </a></td>
 </tr>
 <tr>
-<td><a href="https://softuni.bg/trainings/3714/ms-sql-may-2022#lesson-40081" rel="nofollow"> Databases Basics - MS SQL Server </a></td>
+<td><a href="https://softuni.bg/trainings/3714/ms-sql-may-2022#lesson-40081" rel="nofollow"> Databases - MS SQL Server </a></td>
 <td><a href="https://softuni.bg/certificates/details/134963/6144aec5" rel="nofollow"> Link </a></td>
 </tr>
 <tr>
 <td><a href="https://softuni.bg/trainings/3709/entity-framework-core-june-2022#lesson-39998" rel="nofollow"> Entity Framework Core </a></td>
 <td><a href="https://softuni.bg/certificates/details/141255/3ccf78a6" rel="nofollow"> Link </a></td>
+</tr>
+<tr>
+<td><a href="https://softuni.bg/trainings/3853/asp-net-fundamentals-september-2022" rel="nofollow"> ASP.NET Fundamentals </a></td>
+<td><a href="https://softuni.bg/certificates/details/146504/11d9008a" rel="nofollow"> Link </a></td>
+</tr>
+<tr>
+<td><a href="https://softuni.bg/trainings/3854/asp-net-advanced-october-2022" rel="nofollow"> ASP.NET. Advanced </a></td>
+<td><a href="https://softuni.bg/certificates/details/152264/049ae93a" rel="nofollow"> Link </a></td>
 </tr>
 </tbody>
 </table>
